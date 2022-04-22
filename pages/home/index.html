@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assetes/css/reset.css">
     <link rel="stylesheet" href="/assetes/fonts/fonts.css">
+    <link rel="stylesheet" href="/assetes/css/header.css">
     <title>Abito Home</title>
 </head>
-<header>
+<header class="header">
     <div class="container">
         <nav class="header__nav nav">
             <div class="header__nav__row_left">
                 <div class="nav__row_left__logo">
-                    <img src="/assetes/img/Home/header_img.png" alt="logo">
-                    <h1 class="logo">Abito</h1>
+                    <a class="logo__href" href="#"><img src="/assetes/img/Home/header_img.png" alt="logo"></a>
+                    <a class="logo__href" href="#"><h1 class="logo">Abito</h1></a>
                 </div>
                 <ul class="header__menu menu">
-                    <li>Авто</li>
-                    <li>Недвижимость</li>
-                    <li>Работа</li>
-                    <li>Услуги</li>
+                    <li><a class="menu__href" href="#">Авто</a></li>
+                    <li><a class="menu__href" href="#">Недвижимость</a></li>
+                    <li><a class="menu__href" href="#">Работа</a></li>
+                    <li><a class="menu__href" href="#">Услуги</a></li>
                 </ul>
             </div>
             <div class="header__nav__row_right">
@@ -33,8 +34,9 @@
             </div>
         </nav>
         <form class="header__search search">
-            <input type="text" placeholder="Поиск по обновлениям">
+            <input class="search__input" type="text" placeholder="Поиск по обновлениям">
             <button class="header__search__button button">
+                <img src="/assetes/img/Home/search 3.png" alt="search">
                 Найти
             </button>
         </form>
