@@ -35,6 +35,7 @@
 }
 .card__row__img:hover{
     background: url(/assetes/img/Home/main/main_favourite_1.png) no-repeat 50% 50%;
+    cursor: pointer;
 }
 .card__title {
     font-size: 16px;
